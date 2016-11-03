@@ -34,6 +34,21 @@ def vector_mean():
 def magnitude():
     pass
 
+def main():
+    shape()
+    vector_add()
+    vector_sub()
+    vector_sum()
+    dot()
+    vector_multiply()
+    vector_mean()
+    magnitude()
+
+
+if __name__ == "__main__":
+    main()
+
+
 #vector notes
 #vectors have both magnitude and direction
 #speed is not a vector quantity, it is only a magnitude value
