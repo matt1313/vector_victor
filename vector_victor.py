@@ -2,9 +2,7 @@
 vec_a = []
 vec_b = []
 
-def shape(line):
-    #angle based on vert and horz values in list?
-    #No idea here.
+def shape():
     pass
 
 def vector_add():
@@ -23,7 +21,7 @@ def dot():
 
 def vector_multiply():
     scalar = s
-    vec_a[:], vec_b[:] = [x * s for x in vec_a, vec_b]
+    vec_a[:] = [x * s for x in vec_a]
     #multiply values within each vector list/tuple
     return
 
@@ -35,6 +33,8 @@ def vector_mean():
 
 def magnitude():
     pass
+
+#vector notes
 #vectors have both magnitude and direction
 #speed is not a vector quantity, it is only a magnitude value
 #speed is a scaler
